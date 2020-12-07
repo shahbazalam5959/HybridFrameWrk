@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.testcases.LogintoApplication">
+      <class name="com.automation.testcases.MonstActiveResumes">
         <methods>
-          <include name="buyShirt"/>
-          <include name="SetUpSuite"/>
-          <include name="SetUp"/>
-          <include name="captureScreen"/>
+          <include name="getCreatedResumesCnt_for_1Day"/>
         </methods>
-      </class> <!-- com.automation.testcases.LogintoApplication -->
+      </class> <!-- com.automation.testcases.MonstActiveResumes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

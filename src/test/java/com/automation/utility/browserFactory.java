@@ -12,7 +12,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class browserFactory {
 
-	
 		public static WebDriver startApplication(WebDriver driver,String browserName,String qaURL)
 		{
 			if(browserName.equals("Chrome"))

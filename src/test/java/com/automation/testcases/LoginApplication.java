@@ -31,7 +31,7 @@ public class LoginApplication extends BaseClass
 		}
 	
 		@Test(priority=1,retryAnalyzer=Retry.class)
-		public void signIn()
+		public void signIn() throws Exception
 		{
 			LoginPage sIN = PageFactory.initElements(driver,LoginPage.class);
 			

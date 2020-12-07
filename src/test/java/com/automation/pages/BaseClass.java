@@ -1,13 +1,10 @@
+
 package com.automation.pages;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;

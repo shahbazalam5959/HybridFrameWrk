@@ -9,23 +9,19 @@ public class RunMultipleXMLUsingJavaClass {
 
 	public static void main(String arge[])
 	{
-		// Create object of TestNG Class
 		TestNG runner = new TestNG();
-		
-		// Create a list of String 
+		 
 		List<String> suiteFiles = new ArrayList<String>();
 		
-		// Add xml file which you have to execute
+		// Add xml file which you want to execute
 		//If we have multiple xml files we can add more in this way we can run multiple xml files at one shot with the help of java.
 		suiteFiles.add("./testng.xml");
+		suiteFiles.add("./testng1.xml");
 		
 		// now set xml file for execution
 		runner.setTestSuites(suiteFiles);
 		
 		// finally execute the runner using run method
 		runner.run();
-	}
-	
-	
-	
+	}	
 }
